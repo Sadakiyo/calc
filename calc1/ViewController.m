@@ -14,6 +14,9 @@
 
 @implementation ViewController
 
+@synthesize countNumber;
+@synthesize buttonNumber;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -26,4 +29,19 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)inputNumber1:(id)sender {
+    self.buttonNumber=1;
+    [self labelOutput];
+}
+
+- (IBAction)inputNumber2:(id)sender {
+    self.buttonNumber=2;
+    [self labelOutput];
+}
+
+-(void)labelOutput{
+    self.countNumber=(self.countNumber*10)+self.buttonNumber;
+    NSString*print=[[NSString alloc]initWithFormat:@"%d",self.countNumber];
+                    self.numberOutput.text=print;
+}
 @end

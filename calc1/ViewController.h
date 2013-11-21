@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property(nonatomic,assign)NSInteger countNumber;
+@property(nonatomic,assign)NSInteger buttonNumber;
+@property (weak, nonatomic) IBOutlet UILabel *numberOutput;
+- (IBAction)inputNumber1:(id)sender;
+- (IBAction)inputNumber2:(id)sender;
 
 @end
