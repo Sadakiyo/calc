@@ -103,8 +103,10 @@
                 break;
             case 2:
                 RunningTotal = RunningTotal-SelectNumber;
+                break;
             case 3:
                 RunningTotal = RunningTotal*SelectNumber;
+                break;
             case 4:
                 RunningTotal = RunningTotal/SelectNumber;
             default:
@@ -128,8 +130,10 @@
                 break;
             case 2:
                 RunningTotal = RunningTotal-SelectNumber;
+                break;
             case 3:
                 RunningTotal = RunningTotal*SelectNumber;
+                break;
             case 4:
                 RunningTotal = RunningTotal/SelectNumber;
             default:
@@ -151,8 +155,10 @@
                 break;
             case 2:
                 RunningTotal = RunningTotal-SelectNumber;
+                break;
             case 3:
                 RunningTotal = RunningTotal*SelectNumber;
+                break;
             case 4:
                 RunningTotal = RunningTotal/SelectNumber;
             default:
@@ -160,7 +166,7 @@
         }
     }
     Method=3;
-    SelectNumber =0;
+    SelectNumber=0;
 }
 
 - (IBAction)wari:(id)sender {
@@ -174,8 +180,10 @@
                 break;
             case 2:
                 RunningTotal = RunningTotal-SelectNumber;
+                break;
             case 3:
                 RunningTotal = RunningTotal*SelectNumber;
+                break;
             case 4:
                 RunningTotal = RunningTotal/SelectNumber;
             default:
@@ -197,8 +205,10 @@
                 break;
             case 2:
                 RunningTotal = RunningTotal-SelectNumber;
+                break;
             case 3:
                 RunningTotal = RunningTotal*SelectNumber;
+                break;
             case 4:
                 RunningTotal = RunningTotal/SelectNumber;
             default:
